@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Meridian FX</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header><div class="wrap"><nav>
+<a class="logo" href="#home"><svg width="30" height="30" viewBox="0 0 30 30" aria-hidden="true"><circle cx="15" cy="15" r="13" fill="none" stroke="currentColor" stroke-width="2"/><ellipse cx="15" cy="15" rx="5.5" ry="13" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M2 15h26" stroke="currentColor" stroke-width="1.5"/></svg><span id="brand">Meridian FX</span></a>
+<a class="pill" href="#deposit" id="hb" title="Your available naira balance">Available ₦0.00</a>
+<a class="l" href="#home" data-p="home">Home</a>
+<a class="l" href="#trade" data-p="trade">Buy / Trade</a>
+<a class="l" href="#deposit" data-p="deposit">Deposit</a>
+<a class="l" href="#withdraw" data-p="withdraw">Withdraw</a>
+</nav></div></header>
+<div class="ticker" aria-label="Live rates"><div id="tk"></div></div>
+<main id="app"></main>
+<footer><div class="wrap"><span id="src"></span> <span id="mode"></span></div></footer>
+<script src="config.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
