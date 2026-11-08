@@ -6,7 +6,7 @@ window.CONFIG = {
   BANK: {
     bank: "United Bank for Africa",
     accountNumber: "2350615431",
-    accountName: "Oasis.Ltd"
+    accountName: "Prosper Peter Mfoniso"
   },
   MIN_DEPOSIT: 1000,          // minimum deposit in NGN
   MIN_WITHDRAWAL: 1000,
