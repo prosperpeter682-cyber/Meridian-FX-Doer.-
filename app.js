@@ -83,9 +83,9 @@ trade: function () {
 deposit: function () {
   var B = C.BANK;
   return '<section><div class="wrap"><h2>Deposit money</h2><div id="wal">' + wallet() + '</div><div class="cols"><div>' +
-  '<div class="card"><h3>Step 1. Send a bank transfer</h3><p class="mute">From your own bank app, send naira to our account below.</p>' + row('Bank', B.bank, 1) + row('Account number', B.accountNumber, 1) + row('Account name', B.Opaye, 1) + row('Your reference', S.ref, 1) +
+  '<div class="card"><h3>Step 1. Send a bank transfer</h3><p class="mute">From your own bank app, send naira to our account below.</p>' + row('Bank', B.bank, 1) + row('Account number', B.accountNumber, 1) + row('Account name', B.Accountname, 1) + row('Your reference', S.ref, 1) +
   '<div class="note">Put your reference in the transfer narration so we can match the payment to you.</div></div>' +
-  '<div class="card"><h3>Step 2. Tell us you’ve sent it</h3><label for="da">Amount sent (₦)</label><input id="da" type="number" min="' + C.MIN_DEPOSIT + '" step="any" inputmode="decimal" placeholder="Minimum ' + fmt(C.MIN_DEPOSIT, 0) + '"><label for="ds">Name on the sending account</label><input id="ds"><label for="db">Your bank</label><input id="db" placeholder="e.g. GTBank"><button class="btn full" id="dgo">I’ve sent the money</button>' +
+  '<div class="card"><h3>Step 2. Tell us you’ve sent it</h3><label for="da">Amount sent (₦)</label><input id="da" type="number" min="' + C.MIN_DEPOSIT + '" step="any" inputmode="decimal" placeholder="Minimum ' + fmt(C.MIN_DEPOSIT, 0) + '"><label for="ds">Name on the sending account</label><input id="ds"><label for="db">Opay</label><input id="db" placeholder="e.g. GTBank"><button class="btn full" id="dgo">I’ve sent the money</button>' +
   (C.DEMO_MODE ? '<div class="note">Practice mode: no real money moves. Deposits are credited automatically after 8 seconds.</div>' : '<div class="note">We credit your balance after the payment reaches our account.</div>') + '</div></div>' +
   '<div class="card"><h3>Deposit history</h3><div id="act" data-t="deposit">' + activity(['deposit']) + '</div></div></div></div></section>';
 },
