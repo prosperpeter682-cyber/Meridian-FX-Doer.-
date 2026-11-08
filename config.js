@@ -4,9 +4,9 @@ window.CONFIG = {
 
   // The bank account customers send deposits to (YOUR business account).
   BANK: {
-    bank: "Your Bank Name",
-    accountNumber: "0123456789",
-    accountName: "Your Company Ltd"
+    bank: "United Bank for Africa",
+    accountNumber: "2350615431",
+    accountName: "Oasis.Ltd"
   },
   MIN_DEPOSIT: 1000,          // minimum deposit in NGN
   MIN_WITHDRAWAL: 1000,
